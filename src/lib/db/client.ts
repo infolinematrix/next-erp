@@ -1,6 +1,6 @@
-/** drizzle config */
-import { drizzle } from 'drizzle-orm/node-postgres';
-import { Pool } from 'pg';
+import { drizzle } from 'drizzle-orm/node-postgres'
+import { Pool } from 'pg'
+
 const pool = new Pool({
   host: process.env.DB_HOST,
   port: Number(process.env.DB_PORT) || 5432,
@@ -15,8 +15,6 @@ const pool = new Pool({
   keepAlive: process.env.DB_KEEP_ALIVE === 'true',
   keepAliveInitialDelayMillis: Number(process.env.DB_KEEP_ALIVE_INITIAL_DELAY) || 10000,
   statement_timeout: Number(process.env.DB_STATEMENT_TIMEOUT) || 5000
-});
-export const db = drizzle(pool);
-export default db;
+})
 
-
+export const db = drizzle(pool)

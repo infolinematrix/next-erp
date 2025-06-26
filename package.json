@@ -21,7 +21,7 @@
     "db:push": "drizzle-kit push --config src/lib/db/drizzle.config.ts",
     "db:introspect": "drizzle-kit introspect --config src/lib/db/drizzle.config.ts",
     "db:studio": "drizzle-kit studio --host localhost --port 3001 --verbose --config src/lib/db/drizzle.config.ts",
-    "generate": "plop --plopfile plopfile.ts --require ts-node/register"
+    "generate": "plop"
   },
   "lint-staged": {
     "**/*.{js,jsx,tsx,ts,css,less,scss,sass}": [
