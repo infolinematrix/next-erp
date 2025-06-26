@@ -16,8 +16,8 @@ const META_THEME_COLORS = {
 };
 
 export const metadata: Metadata = {
-  title: 'Next Shadcn',
-  description: 'Basic dashboard with Next.js and Shadcn'
+  title: 'Next ERP',
+  description: 'Next Erp is a modern, open-source ERP system built with Next.js and Nuqs.',
 };
 
 export const viewport: Viewport = {
