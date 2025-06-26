@@ -1,0 +1,1 @@
+// Root component for Hrms module
