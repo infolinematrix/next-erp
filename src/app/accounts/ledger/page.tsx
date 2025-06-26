@@ -1,3 +1,11 @@
-export default function LedgerPage() {
-  return <div>Ledger page</div>;
+
+
+import { NextPage } from 'next'
+
+interface Props {}
+
+const Page: NextPage<Props> = ({}) => {
+  return <div></div>
 }
+
+export default Page

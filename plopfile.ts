@@ -2,6 +2,10 @@ import { NodePlopAPI } from 'plop';
 import path from 'path';
 import process from 'process';
 
+/** Use */
+// npx plop module
+// npx plop page
+
 export default function (plop: NodePlopAPI) {
   plop.setGenerator('module', {
     description: 'Generate a full module in the current directory',
