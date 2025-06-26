@@ -21,9 +21,15 @@ export default function (plop: NodePlopAPI) {
         {
           type: 'add',
           path: path.join(base, 'page.tsx'),
-          template: `export default function {{pascalCase name}}Page() {
-  return <div>{{pascalCase name}} page</div>;
-}`
+          template: `import { NextPage } from 'next'
+          
+interface Props {}
+          
+const Page: NextPage<Props> = ({}) => {
+  return <div></div>
+}
+          
+export default Page`
         },
         {
           type: 'add',
@@ -179,9 +185,15 @@ export default function {{pascalCase name}}Layout({ children }: { children: Reac
         {
           type: 'add',
           path: path.join(base, 'page.tsx'),
-          template: `export default function {{pascalCase subfolder}}Page() {
-  return <div>{{pascalCase subfolder}} page</div>;
-}`
+          template: `import { NextPage } from 'next'
+          
+interface Props {}
+          
+const Page: NextPage<Props> = ({}) => {
+  return <div></div>
+}
+          
+export default Page`
         },
         {
           type: 'add',
