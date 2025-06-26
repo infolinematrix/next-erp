@@ -29,7 +29,7 @@ import {
   SidebarRail
 } from '@/components/ui/sidebar';
 import { UserAvatarProfile } from '@/components/user-avatar-profile';
-import { navItems } from '@/constants/data';
+import { navItems } from '@/constants/menu-admin';
 import { useMediaQuery } from '@/hooks/use-media-query';
 import { useUser } from '@clerk/nextjs';
 import {
