@@ -28,7 +28,7 @@ export const navItems: NavItem[] = [
     items: [
       {
         title: 'User Management',
-        url: '/dashboard/users',
+        url: '/users',
         icon: 'userPen',
         shortcut: ['u', 'u']
       },
